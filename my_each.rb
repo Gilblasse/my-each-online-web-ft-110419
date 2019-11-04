@@ -6,7 +6,7 @@ def my_each (array)
       i += 1
     end
   else
-    p "Empty Array"
+    print "Empty Array"
   end
   array
 end
