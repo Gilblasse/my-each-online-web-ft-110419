@@ -5,4 +5,8 @@ def my_each (array)
       yield(array[i])
       i += 1
     end
+  else
+    puts "Empty Array"
+  end
+  array
 end
